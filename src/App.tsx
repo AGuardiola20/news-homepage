@@ -12,6 +12,7 @@ const CardContainer = styled.div`
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 3rem;
 `;
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         <Card
           text="Our best picks for various needs and budgets."
           titleNumber="02"
-          title="Top 10 Laptops of 2022"
+          title="Top 10 Laptops of 2024"
           img={Image2}
         />
         <Card
