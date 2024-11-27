@@ -7,6 +7,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
+  margin: 2rem 0;
 `;
 
 const MainContainer = styled.div`
@@ -27,6 +28,10 @@ const Title = styled.h2`
   font-weight: 800;
 `;
 
+const Text = styled.p`
+  color: ${({ theme }) => theme.colors.darkGrayishBlue};
+`;
+
 const ReadMoreContainer = styled.div`
   flex: 1;
   display: flex;
@@ -37,6 +42,38 @@ const ReadMoreContainer = styled.div`
 const NewsContainer = styled.div`
   flex: 1;
   background-color: ${({ theme }) => theme.colors.darkBlue};
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const NewsContainerTitle = styled.h2`
+  color: ${({ theme }) => theme.colors.softOrange};
+  font-size: 2rem;
+`;
+
+const NewItemContainer = styled.div`
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.grayishBlue};
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &:last-of-type {
+    border: none;
+  }
+`;
+
+const NewTitle = styled.h3`
+  color: ${({ theme }) => theme.colors.offWhite};
+  font-size: 1.1rem;
+`;
+
+const NewText = styled.p`
+  color: ${({ theme }) => theme.colors.grayishBlue};
 `;
 
 const MainImage = styled.img`
@@ -51,10 +88,10 @@ type NewsItemProps = {
 
 const NewsItem = ({ title, text }: NewsItemProps) => {
   return (
-    <>
-      <h3>{title}</h3>
-      <p>{text}</p>
-    </>
+    <NewItemContainer>
+      <NewTitle>{title}</NewTitle>
+      <NewText>{text}</NewText>
+    </NewItemContainer>
   );
 };
 
@@ -70,17 +107,17 @@ const MainContent = () => {
         <InfoContainer>
           <Title>The Bright Future of Web 3.0?</Title>
           <ReadMoreContainer>
-            <p>
+            <Text>
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
-            </p>
+            </Text>
             <Btn text="Read More" onClick={handleReadMore} />
           </ReadMoreContainer>
         </InfoContainer>
       </MainContainer>
       <NewsContainer>
-        <h2>New</h2>
+        <NewsContainerTitle>New</NewsContainerTitle>
         <NewsItem
           title="Hydrogen VS Electric Cars"
           text="Will hydrogen-fueled cars ever catch up to EVs?"
