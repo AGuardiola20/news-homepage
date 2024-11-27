@@ -19,16 +19,24 @@ const Link = styled.a`
   transition: 0.2s ease-in;
 
   &:hover {
+    transform: scale(1.1);
     color: ${({ theme }) => theme.colors.softRed};
+  }
+`;
+
+const LogoContainer = styled.a`
+  transition: 0.2s ease-in;
+  &:hover {
+    transform: scale(1.1);
   }
 `;
 
 const NavBar = () => {
   return (
     <NavContainer>
-      <a href="#">
+      <LogoContainer href="#">
         <img src={Logo} alt={`Logo`} />
-      </a>
+      </LogoContainer>
       <LinkContainer>
         <Link href="#">Home</Link>
         <Link href="#">New</Link>
