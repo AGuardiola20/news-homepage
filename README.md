@@ -36,30 +36,6 @@ Very dark blue: hsl(240, 100%, 5%)
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
-Home
-New
-Popular
-Trending
-Categories
-
-The Bright Future of Web 3.0?
-
-We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
-But is it really fulfilling its promise?
-
-Read more
-
-New
-
-Hydrogen VS Electric Cars
-Will hydrogen-fueled cars ever catch up to EVs?
-
-The Downsides of AI Artistry
-What are the possible adverse effects of on-demand AI image generation?
-
-Is VC Funding Drying Up?
-Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
 01
 Reviving Retro PCs
 What happens when old PCs are given modern upgrades?
