@@ -32,7 +32,7 @@ const Title = styled.h3`
 const Text = styled.h3`
   color: ${({ theme }) => theme.colors.grayishBlue};
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 400;
 `;
 
 type CardProps = {

@@ -1,6 +1,8 @@
 body {
   font-family: "Inter", serif;
   margin: 0;
+  background-color: hsl(36, 100%, 99%);
+  padding: 5rem;
 }
 h1,
 h2,
