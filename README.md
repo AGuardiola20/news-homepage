@@ -1,49 +1,35 @@
-# Front-end Style Guide
+# Frontend Mentor Challenge - News homepage 
 
-## Layout
+Welcome to my solution for the [News homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl) challenge from Frontend Mentor! 🚀
 
-The designs were created to the following widths:
+This project is very simple but I wanted to learn how to use styled components.
 
-- Mobile: 375px
-- Desktop: 1440px
+This project was developed using React, Vite, and Styled-Components to create a modern, fast, and fully styled solution.
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+## ✨ Demo  
+![image](https://github.com/user-attachments/assets/d20cdedc-c7e4-4517-92a5-fa206763d7ad)
 
-## Colors
 
-### Primary
+## 🛠️ Technologies
+- **React**: Main library for building the user interface.
+- **Vite**: Fast development tool for modern applications.
+- **Styled-Components**: CSS-in-JS solution for modular and scalable style management. 
 
-- Soft orange: hsl(35, 77%, 62%)
-- Soft red: hsl(5, 85%, 63%)
+## ⚙️ Installation
+Follow these steps to set up the project locally:
 
-### Neutral
+```
+git clone https://github.com/AGuardiola20/news-homepage.git
+```
 
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%)
+```
+cd news-homepage
+```
 
-## Typography
+```
+npm install
+```
 
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700, 800
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
-
-01
-Reviving Retro PCs
-What happens when old PCs are given modern upgrades?
-
-02
-Top 10 Laptops of 2022
-Our best picks for various needs and budgets.
-
-03
-The Growth of Gaming
-How the pandemic has sparked fresh opportunities.
+```
+npm run dev
+```
